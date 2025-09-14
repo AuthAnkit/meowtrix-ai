@@ -1,9 +1,3 @@
-"""
-MeowTrix-AI Interface Module
-Provides both Command Line Interface (CLI) and Graphical User Interface (GUI)
-for deepfake detection system
-"""
-
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
 import argparse
@@ -23,6 +17,7 @@ from feature_extractor import FeatureExtractor
 from classifier import MeowTrixClassifier
 
 class MeowTrixCLI:
+    
     """
     Command Line Interface for MeowTrix-AI deepfake detection
     """
